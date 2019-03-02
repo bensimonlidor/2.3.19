@@ -11,7 +11,8 @@ namespace print1to10
 {
 static void Main(string[] args)
 		{
-                int a;
+		 Random engine = new Random();
+		int a = engine.Next(1, 10);
                 a = Convert.ToInt32(Console.ReadLine());
 switch (a)
             {
