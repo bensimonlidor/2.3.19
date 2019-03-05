@@ -13,15 +13,17 @@ static void Main(string[] args)
 		{
                 int a;
                 a = Convert.ToInt32(Console.ReadLine());
-switch (a)
-{
+
+
               printNumber1To10(a);
               // functions 
- }
+}
 
 
  private static void printNumber1To10(int a)
             {
+	 switch (a)
+	 {
                 case 1: Console.WriteLine("one");
                 break;
                 case 2: Console.WriteLine("two");
@@ -46,8 +48,6 @@ switch (a)
                     Console.WriteLine("number not in range");
                     break;
             }
-
-            Thread.Sleep(500);
-            }
-            }
 }            
+	}
+}
